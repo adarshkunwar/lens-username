@@ -5,6 +5,7 @@ import styles from '@/styles/Home.module.css'
 import Layout from '../components/nav/Layout'
 import UserNames from '../components/UserNames'
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {

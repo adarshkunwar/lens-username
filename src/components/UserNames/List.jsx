@@ -45,11 +45,6 @@ const List = () => {
                 onClick={() => {
                   console.log("firstname");
                   router.push(`/username/${val.userName}`);
-                  // setPassingDays(val.days);
-                  // setPassingHours(val.hours);
-                  // setPassingMinimumBid(val.minimumBid);
-                  // setPassingUserName(val.userName);
-                  // setPassData(true);
                 }}
                 className="grid grid-cols-3 py-2  hover:bg-secondary"
               >

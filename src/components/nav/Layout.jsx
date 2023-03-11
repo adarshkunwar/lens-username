@@ -3,8 +3,10 @@ import TopBar from "./TopBar";
 
 const Layout = ({ children }) => {
   return (
-    <div>
-      <TopBar />
+    <div className="h-screen bg-primary relative ">
+      <div className="sticky top-0">
+        <TopBar />
+      </div>
       {children}
     </div>
   );
